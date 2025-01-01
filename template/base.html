@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        {% endblock title %}
+
+    </title>
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+    {% block css %}
+    {% endblock css %}
+    <link rel="shortcut icon" href="{% static 'sheriyan.webp' %}" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+    <nav id="n1">
+        <a href="" id="a1">🦁 Sheriyans Coding School</a>
+        <a href="{% url 'webpage:home' %}" class="a">Home</a>
+        <a href="{% url 'webpage:course' %}" class="a">Courses</a>
+        <a href="{% url 'webpage:bootcamp' %}" class="a">Bootcamp(kodr)</a>
+        <a href="{% url 'webpage:callback' %}" class="a">Request Callback</a>
+        <button class="b"><a href="{% url 'webpage:signin' %}" id="a2">Sign in</a></button>
+    </nav>
+    
+    {% block content %}
+    {% endblock content %}
+    </div>
+   
+</body>
+</html>

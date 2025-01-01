@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+ Request callback
+{% endblock title %}
+
+{% block content %}
+
+<div id="container">
+    <div id="d1">
+        <div id="dd1">
+            <h1 id="h1t">Request Callback</h1>
+        </div>
+        <div id="dd2">
+            <h6 id="h2t">
+                <pre>
+   Fill the form below to request a callback from 
+                    our team.
+        </pre>
+            </h6>
+        </div>
+        <form action="">
+            <legend>Name</legend>
+            <input type="text" placeholder="   Name"><br>
+            <legend>Phone</legend>
+            <input type="number" placeholder="   Phone"><br>
+            <legend>Select Date and Time</legend>
+            <input type="datetime-local">
+        </form>
+        <button id="b1">Submit</button>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'callback.css' %}">
+{% endblock css %}

@@ -1,0 +1,175 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+bootcamp
+{% endblock title %}
+{% block content %}
+<script>
+    function expand() {
+        const expandElement = document.getElementById("expand");
+        if (expandElement.style.display === "block") {
+            expandElement.style.display = "none";
+        } else {
+            expandElement.style.display = "block";
+        }
+    }
+</script>
+<div id="container">
+    <div id="page1">
+        <div id="left">
+            <div id="d1">
+                <pre id="pre1">
+    6 months in-House
+    Bootcamp
+    programme-Kodr
+            </pre>
+            </div>
+            <div id="d3">
+                <button id="b1">Starts on:20 Dec 2024</button> <button id="b2">Placement Assistance</button>
+            </div>
+            <div id="d4">
+                <p id="p1">Price
+                    <span id="sp1">₹ 59000 <span id="sp2"> [50,000 + 18% GST]</span></span>
+            </div>
+            <div id="d5">
+                <button id="b3">Seats Are Full</button>
+            </div>
+        </div>
+        <div id="right">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pOGLAlGCKFE?si=rM6UxbFJ5lcQ9NQ1"
+                title="YouTube video player" autoplay; id="video"></iframe>
+        </div>
+    </div>
+    <div id="page2">
+        <div id="d6">
+            <h1 id="h1">we believe in, <br><span id="sp3">
+                    Consistency. <span id="sp4">No shortcuts</span>
+                </span></h1>
+        </div>
+    </div>
+    <div id="page3">
+        <div id="d7">
+            <button id="b4">
+                <h1 class="h2">MERN Stack
+                    <img src="https://ik.imagekit.io/sheryians/kodr/electro_RlngqJHDkh.png" alt="" class="img">
+                </h1>
+            </button>
+            <button id="b5">
+                <h1 class="h2">Data Structures & Algorithm
+                    <img src="https://ik.imagekit.io/sheryians/kodr/chad_idIwYgW6A.png" alt="" class="img">
+                </h1>
+            </button>
+            <button id="b6">
+                <h1 class="h2">DBMS-SQL
+                    <img src="https://ik.imagekit.io/sheryians/kodr/swag_SlmSZ5u28P.png" alt="" class="img">
+                </h1>
+            </button>
+            <button id="b7">
+                <h1 class="h2">CORE CS SUBJECTS
+                    <img src="https://ik.imagekit.io/sheryians/kodr/gear_0FytxuYMLl.png" alt="" class="img">
+                </h1>
+            </button>
+            <button id="b8">
+                <h1 class="h2">Placement Assistance
+                    <img src="https://ik.imagekit.io/sheryians/kodr/money_hwiAve2ra.png" alt="" class="img">
+                </h1>
+            </button>
+        </div>
+    </div>
+    <div id="page4">
+        <div id="d8">
+            <h1 class="h3">Non-Stop</h1>
+            <h1 id="h4">5 hours</h1>
+            <h1 class="h3">Coding
+                <span id="sp5">[Everyday]</span>
+            </h1>
+            <p id="p2">Monday To Saturday. 11:00 AM To 4:00 PM </p>
+        </div>
+    </div>
+    <div id="page5">
+        <div id="d9">
+            <h1 id="h5">Dominate.</h1>
+            <h2 id="h6">From Start To Victory.</h2>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div id="content">
+        <div id="frst">
+            <h1 id="text">HTML/CSS</h1>
+        </div>
+        <div id="second">
+            <button class="expand-button" onclick="expand()" style="cursor: pointer;">Expand</button>
+        </div>
+    </div>
+    <div id="expand" style="width: 90%;height: 600px;color: white;">
+        <h1 class="hc">HTML Basics</h1>
+        <h1 class="hc">Semantic HTML</h1>
+        <h1 class="hc">Forms and Validation</h1>
+        <h1 class="hc">Multimedia Elements(Audio,video)</h1>
+        <h1 class="hc">CSS Fundamentals</h1>
+        <h1 class="hc">CSS Box Model</h1>
+        <h1 class="hc">Flexbox</h1>
+        <h1 class="hc">Grid Layout</h1>
+        <h1 class="hc">CSS Animations</h1>
+        <h1 class="hc">Transitions</h1>
+        <h1 class="hc">Keyframe Animations</h1>
+        <h1 class="hc">Responsive Design</h1>
+        <h1 class="hc">Media Queries</h1>
+        <h1 class="hc">CSS Variables</h1>
+        <h1 class="hc">CSS Frameworks(TailwindCSS)</h1>
+    </div>
+    <div class="line"></div>
+    <br><br><br>
+<div id="d12">
+    <div id="ss1">
+        <img src="../static/sheriyan.webp" alt="" id="img3">
+        <p id="p8">Lets connect with our socials</p><br>
+        <div id="socials">
+            <a href="https://www.instagram.com/sheryians_coding_school/" class="link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/company/the-sheryians-coding-school" class="link"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://discord.com/invite/D23JkFqrgz" class="link"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.youtube.com/@sheryians" class="link"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsheryians_" class="link"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+    <div id="ss2">
+        <h3 class="hcc">COMPANY</h3>
+        <a href="#" class="fc">About Us</a><br>
+        <a href="#" class="fc">Support</a><br>
+        <a href="#" class="fc">Privacy Policy</a> <br>
+        <a href="#" class="fc">Terms and Condition</a> <br>
+        <a href="#" class="fc">Pricing and Refund</a> <br>
+        <a href="$" class="fc">Hire From Us</a> <br>
+        <a href="#" class="fc">Bug Bounty</a>
+    </div>
+    <div id="ss3">
+        <h3 class="hcc">COMMUNITY</h3>
+        <a href="#" class="fc">Inertia</a> <br>
+        <a href="#" class="fc">Discord</a>
+    </div>
+    <div id="ss4">
+        <h3 class="hcc">Get In Touch</h3>
+        <a href="#" class="fc">+91 8109161752</a><br>
+        <a href="#" class="fc">+91 9691778470</a><br>
+        <a href="#" class="fc">hello@sheryians.com</a> <br>
+        <a href="#" class="fc">23-B,Indrapuri Sector C, <br> <span
+                style="padding-left: 20px;">Bhopal(MP),462021</span></a>
+
+    </div>
+</div>
+<div id="d13"></div>
+<pre id="pr1">
+        Copyright © 2024 Sheriyans Pvt. Ltd.
+               All rights Reserved
+    </pre>
+</div>
+</div>
+
+{% endblock content %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'bootcamp.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+{% endblock css %}

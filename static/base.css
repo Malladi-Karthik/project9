@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#n1{
+    padding-top: 2%;
+    margin-left: 90px;
+}
+#container{
+    width: 100%;
+    height: 4000px;
+    background-image: radial-gradient(circle at top left,#24cfa6,black,black,black);
+}
+#a1{
+    text-decoration: none;
+    color: white;
+    padding-right: 80px;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    margin-left: 80px;
+}
+
+.b{
+   margin-left: 70px;
+    height: 40px;
+    width: 100px;
+    background-color: #24cfa6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.b:hover{
+    opacity: 0.8;
+}
+#a2{
+    text-decoration: none;
+    color: white;
+}
