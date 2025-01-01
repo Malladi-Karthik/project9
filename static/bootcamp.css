@@ -97,12 +97,12 @@ float: left;
 #page2{
     width: 100%;
     height: 300px;
-    /* background-color: red; */
 }
 #d6{
     width: 100%;
-    height: 320px;
+    height: 300px;
     margin-top: 30px;
+    /* background-color: yellow; */
 }
 #h1{
     margin-left: 60px;
@@ -154,7 +154,7 @@ float: left;
     border-radius: 30px;
 }
 #b7{
-    margin: 40px;
+    margin-left: 40px;
     width: 500px;
     height: 70px;
     background-color: rgba(128, 128, 128, 0.395);
@@ -162,6 +162,7 @@ float: left;
     border-radius: 30px;
 }
 #b8{
+    margin-top: 40px;
     margin-left: 80px;
     width: 500px;
     height: 70px;
@@ -171,7 +172,7 @@ float: left;
 }
 #d8{
     width: 100%;
-    height: 850px;
+    height: 870px;
     /* background-color: red; */
     margin-top: 30px;
 }
